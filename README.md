@@ -1,0 +1,2 @@
+# nvim-config
+init.lua
