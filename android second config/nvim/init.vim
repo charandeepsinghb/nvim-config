@@ -17,6 +17,12 @@ Plug 'tpope/vim-commentary'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+Plug 'darrikonn/vim-gofmt', { 'do': ':GoUpdateBinaries' }
+
 call plug#end()
 
 

@@ -1,0 +1,6 @@
+coc-html 1.8.0 ~/.config/coc/extensions/node
++ coc-tsserver 2.2.0 ~/.config/coc/extensions/
++ coc-java 1.15.2 ~/.config/coc/extensions/nod
++ coc-go 1.3.33 ~/.config/coc/extensions/node_
++ coc-css 2.1.0 ~/.config/coc/extensions/node_
++ coc-clangd 0.31.0
