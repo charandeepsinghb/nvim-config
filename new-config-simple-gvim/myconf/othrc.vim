@@ -15,6 +15,3 @@ set autoindent smartindent       " Auto and smart indentation
 " Interface
 set number                       " Show line numbers
 
-" Searching
-set showmatch                    " Highlight matching brackets
-
