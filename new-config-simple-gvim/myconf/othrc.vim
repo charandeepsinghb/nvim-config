@@ -17,3 +17,23 @@ set number                       " Show line numbers
 
 " Disable backups and swap files
 set nobackup noswapfile          " No backups or swap files
+
+" With a map leader it's possible to do extra key combinations
+" like <leader>w saves the current file
+let mapleader = ","
+
+" Fast saving
+nmap <leader>w :w!<cr>
+
+" Disable highlight when <leader><cr> is pressed
+map <silent> <leader><cr> :noh<cr>
+
+" Close the current buffer
+map <leader>bd :Bclose<cr>:tabclose<cr>gT
+
+" Close all the buffers
+map <leader>ba :bufdo bd<cr>
+
+" buffer chnages
+map <leader>l :bnext<cr>
+map <leader>h :bprevious<cr>
