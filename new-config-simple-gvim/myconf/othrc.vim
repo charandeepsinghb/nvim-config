@@ -15,3 +15,5 @@ set autoindent smartindent       " Auto and smart indentation
 " Interface
 set number                       " Show line numbers
 
+" Disable backups and swap files
+set nobackup noswapfile          " No backups or swap files
