@@ -11,3 +11,7 @@ function! Gounset()
 endfunction
 
 nnoremap <Leader>gos :call Goset()<CR>
+
+nnoremap <leader>o :normal o<Esc><CR>
+
+nnoremap <leader>so :so ~/myFiles/other_software/vimsessions/nses.vim<CR>
