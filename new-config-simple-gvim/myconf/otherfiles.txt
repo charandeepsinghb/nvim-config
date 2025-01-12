@@ -2,7 +2,6 @@ other files are
 
 coc.nvim/
 vim-commentary/
-vim-obsession/
 wincap.vim/
 
 

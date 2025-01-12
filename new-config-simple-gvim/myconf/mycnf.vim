@@ -1,8 +1,7 @@
 " Defaults
 " set guifont=Consolas:h9:cANSI:qDRAFT
 
-" set guifont=Fira_Code:h12:cANSI:qDRAFT
-set guifont=Fira_Mono:h12:cANSI:qDRAFT
+set guifont=Fira_Code:h11:cANSI:qDRAFT
 
 colorscheme habamax
 
@@ -23,4 +22,6 @@ au GUIEnter * simalt ~x
 " J and K in visual to move lines
 xnoremap J :m '>+1<CR>gv=gv
 xnoremap K :m '<-2<CR>gv=gv
+
+nnoremap <leader>so :so ~/myFiles/other_software/vimsessions/sesgvim.vim<CR>
 
