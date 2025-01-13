@@ -23,5 +23,14 @@ au GUIEnter * simalt ~x
 xnoremap J :m '>+1<CR>gv=gv
 xnoremap K :m '<-2<CR>gv=gv
 
-nnoremap <leader>so :so ~/myFiles/other_software/vimsessions/sesgvim.vim<CR>
+"""""""""""""""""""""""""""" autocomplete simple
+" Enable autocomplete menu
+set completeopt=menu,menuone,noselect
 
+" Include words from the current file and buffers
+set complete+=w,b
+
+set omnifunc=syntaxcomplete#Complete
+
+nnoremap <leader>yo :so ~/myFiles/dev/softwares/gnvim/sessions/gses.vim<CR>
+nnoremap <leader>ys :mksession! ~/myFiles/dev/softwares/gvim/sessions/gses.vim<CR>

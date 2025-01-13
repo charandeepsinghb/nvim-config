@@ -61,3 +61,12 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+
+" path to current file
+nnoremap <leader>cd :cd %:p:h<CR>
+
+nnoremap <leader>yo :so ~/myFiles/dev/softwares/gvim/sessions/gses.vim<CR>
+nnoremap <leader>ys :mksession! ~/myFiles/dev/softwares/gvim/sessions/gses.vim<CR>
+
+
