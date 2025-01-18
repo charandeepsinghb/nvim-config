@@ -19,3 +19,17 @@ let g:wincap_plugin_exe = g:plug_home . '\wincap.vim\bin\wincap.exe'
 " toggle window transparency to 247 or 180 by pressing F12
 " noremap <f12> <esc>:call libcallnr('gvim_fullscreen.dll', 'ToggleTransparency', "247,180")<cr>
 " set to 255 for black
+
+
+" prettier
+
+function! FormatWithPrettier()
+  execute '%!c:\Users\CharandeepSingh\myFiles\software\gvim\prettier\node_modules\.bin\prettier --stdin-filepath ' . shellescape(expand('%:p'))
+endfunction
+
+function! FormatWithAStyle()
+  execute '%!c:\Users\CharandeepSingh\myFiles\software\gvim\astyle\astyle-3.6.6-x64\astyle --style=google --indent=spaces=2'
+  " execute '%!c:\Users\CharandeepSingh\myFiles\software\gvim\astyle\astyle-3.6.6-x64\astyle --style=kr'
+endfunction
+" You can replace 'kr' with your preferred style
+
